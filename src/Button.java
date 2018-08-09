@@ -6,8 +6,7 @@ public class Button {
 	ImageIcon icon;
 	ImageIcon icon2;
 	ImageIcon icon3;
-	
-	
+
 	public JButton GetClose()
 	{
 		icon=new ImageIcon("images/cross2.png");
@@ -25,6 +24,7 @@ public class Button {
 		
 		return log;
 	}
+	
 	public JButton GetBack()
 	{
 		icon=new ImageIcon("images/back2.png");
@@ -43,12 +43,12 @@ public class Button {
 		
 		return log;
 	}
+	
 	public JButton GetLogin()
 	{
 		 icon=new ImageIcon("images/login1.jpg");
 		 icon2=new ImageIcon("images/login2.jpg");
-	 icon3=new ImageIcon("images/login3.jpg");
-		
+	         icon3=new ImageIcon("images/login3.jpg");
 		
 		JButton log=new JButton();
 		log.setBorderPainted(false);
@@ -67,8 +67,7 @@ public class Button {
 	{
 		 icon=new ImageIcon("images/save1.jpg");
 		 icon2=new ImageIcon("images/save2.jpg");
-	 icon3=new ImageIcon("images/save3.jpg");
-		
+	         icon3=new ImageIcon("images/save3.jpg");
 		
 		JButton log=new JButton();
 		log.setBorderPainted(false);
@@ -82,12 +81,12 @@ public class Button {
 		log.setDisabledIcon(icon);
 		return log;
 	}
+	
 	public JButton GetSet()
 	{
 		icon=new ImageIcon("images/sup1.jpg");
-		 icon2=new ImageIcon("images/sup2.jpg");
-	 icon3=new ImageIcon("images/sup3.jpg");
-		
+		icon2=new ImageIcon("images/sup2.jpg");
+	        icon3=new ImageIcon("images/sup3.jpg");
 		
 		JButton log=new JButton();
 		log.setBorderPainted(false);
@@ -101,4 +100,5 @@ public class Button {
 		log.setDisabledIcon(icon);
 		return log;
 	}
+	
 }
